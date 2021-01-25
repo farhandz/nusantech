@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* css global untuk kalulator */
+
+.wrap-clc {
+  border: 1px solid red;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input-clc {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.clc-operator {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid darkblue;
+
+}
+
+.plus {
+  background: darkblue;
+  padding-right: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.clc-resultt {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
